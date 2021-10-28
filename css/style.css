@@ -1,0 +1,143 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   text-align: center;
+}
+/* struttura */
+
+.container{
+    margin:20px 100px;
+    width: 600px;
+    height: 900px;
+    background-color: #fff;
+    display:inline-block;
+    position: relative;
+} 
+
+.blocco{
+    height: 250px;
+    width: 30%;
+    display: inline-block;
+
+}
+.blocco, .uno, .due, .tre{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    padding-bottom:5px ;
+}
+
+.quattro, .cinque, .sei {
+    position: relative;
+    top: 70px;
+    left: 25px;
+    padding-bottom:5px ;
+}
+
+/*// struttura */
+
+/* immagini e sconti */
+img{
+    width: 100%;
+    height: 250px;
+}
+
+.sconto{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: #fff;
+    font-size: 8px;
+}
+
+.primo, .quarto {
+    width: 25px;
+    height: 10px;
+    background-color: rgb(245, 84, 84);
+}
+
+.prim, .quart {
+    width: 50px;
+    height: 10px;
+    background-color: rgb(64, 112, 87);
+    left: 28px;
+}
+
+.secondo, .terzo{
+    width: 25px;
+    height: 10px;
+    background-color: rgb(245, 84, 84);
+}
+
+.sesto{
+    width: 55px;
+    height: 10px;
+    background-color: rgb(64, 112, 87);
+}
+/*// immagini e sconti */
+
+/* hover */
+/* 1 */
+img[src="img/1.webp"]:hover{
+    display: none;
+}
+.blocco.uno:hover{
+    background-image: url("../img/1b.webp");
+    background-size: 100%;
+}
+/*// 1 */
+
+/* 2 */
+
+
+img[src="img/2.webp"]:hover{
+    display: none;
+}
+.blocco.due:hover{
+    background-image: url("../img/2b.webp");
+    background-size: 100%;
+}
+/*// 2 */
+
+/* 3 */
+img[src="img/3.webp"]:hover{
+    display: none;
+}
+.blocco.tre:hover{
+    background-image: url("../img/3b.webp");
+    background-size: 100%;
+}
+/*// 3 */
+
+/* 4 */
+img[src="img/4.webp"]:hover{
+    display: none;
+}
+.blocco.quattro:hover{
+    background-image: url("../img/4b.webp");
+    background-size: 100%;
+}
+/*//4 */
+
+/* 5 */
+img[src="img/5.webp"]:hover{
+    display: none;
+}
+.blocco.cinque:hover{
+    background-image: url("../img/5b.webp");
+    background-size: 100%;
+}
+/*// 5 */
+
+/* 6 */
+img[src="img/6.webp"]:hover{
+    display: none;
+}
+.blocco.sei:hover{
+    background-image: url("../img/6b.webp");
+    background-size: 100%;
+}
+/*// 6 */
