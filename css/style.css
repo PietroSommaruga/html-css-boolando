@@ -45,6 +45,15 @@ img{
     height: 250px;
 }
 
+.cuore{
+    width: 30px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
 .sconto{
     position: absolute;
     left: 0;
